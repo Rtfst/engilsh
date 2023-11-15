@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+
+}
+.cont{
+    width: 80%;
+    height:  650px;
+    background-color: #2c3e50;
+    text-align: center;
+    position: relative;
+}
+img.logo{
+    background: #39398b;
+    border-radius: 50%;
+}
+.answers{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ffff;
+    bottom: 67px;
+    line-height: 1.8;
+}
+.word{
+    color: #ffff;
+    padding: 12px;
+    font-size: 29px;
+    font-weight: 800;
+}
+.answers div{
+    background-color: rgba(255, 255, 255, 0.563);
+    width: 411px;
+    margin: 7px 0;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 800;
+    
+}
+.en-word{
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translateX(-50%);
+    
+}
+.clicked{
+    background-color: greenyellow !important;
+}
+.los{
+    background-color: red !important;
+}
+.los, .clicked{
+    pointer-events: none;
+}
+
